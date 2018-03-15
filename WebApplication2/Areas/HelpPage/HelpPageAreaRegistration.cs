@@ -20,6 +20,8 @@ namespace WebApplication2.Areas.HelpPage
                 "Help/{action}/{apiId}",
                 new { controller = "Help", action = "Index", apiId = UrlParameter.Optional });
 
+
+
             HelpPageConfig.Register(GlobalConfiguration.Configuration);
         }
     }
